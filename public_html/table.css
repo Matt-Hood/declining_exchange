@@ -1,0 +1,27 @@
+
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  text-align: center;
+  padding: 8px;
+}
+
+tr:nth-child(even){background-color: #f2f2f2}
+
+th {
+  background-color: #480087;
+  color: white;
+position: sticky;
+}
+
+#wrapper th{
+ top:5vh;
+}
+#container th{
+ position: sticky;
+ top:0;
+}
